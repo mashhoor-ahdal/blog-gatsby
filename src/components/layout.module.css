@@ -1,0 +1,59 @@
+.container {
+  margin: auto;
+  max-width: 500px;
+  font-family: 'Gill Sans',sans-serif;
+  box-sizing: border-box;
+}
+/* :root{
+  
+} */
+
+
+.heading {
+  color: rebeccapurple;
+}
+
+.logo{
+  width: fit-content;
+  margin-right: 44px;
+
+  
+  position: relative;
+  top: 50px;
+}
+  
+.logo a{
+  text-decoration: none;
+  color: #a39595;
+  margin-left: 20px;
+  font-size: 2rem;
+  font-family: cursive; 
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  border-bottom: 2px solid rgb(104, 102, 102);
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-link-item {
+  padding-right: 2rem;
+  width: 50px;
+}
+.nav-link-text {
+  color: black;
+  padding: 2px;
+  text-decoration: none;
+  transition: background-color 50ms cubic-bezier(0.94, 0.05, 1, 1);
+}
+
+
+.nav-link-text:hover{
+  background-color: black ;
+  color: white;
+  border-radius: 5px;
+}
