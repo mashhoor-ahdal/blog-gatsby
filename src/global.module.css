@@ -1,0 +1,12 @@
+.hero h1{
+    margin-bottom: 30px;
+    color: black;
+    text-shadow: -1px 2px 0px #b7a11f;}
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+.hero p{
+    color: #5f5907;
+    padding-left: 20px;
+   }

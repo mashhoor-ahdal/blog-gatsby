@@ -8,6 +8,7 @@ import {
   logo,
   navbar,
 } from "./layout.module.css";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
@@ -18,10 +19,17 @@ const Layout = ({ children }) => {
         </div>
         <ul className={navLinks}>
           <li className={navLinkItem}>
+            <Link to="/" className={navLinkText}>
+              Home
+            </Link>
+          </li>
+
+          <li className={navLinkItem}>
             <Link to="/blog" className={navLinkText}>
               Blog
             </Link>
           </li>
+
           <li className={navLinkItem}>
             <Link to="/about" className={navLinkText}>
               About
@@ -30,6 +38,7 @@ const Layout = ({ children }) => {
         </ul>
       </nav>
       <main>{children}</main>
+      <Footer />
     </div>
   );
 };

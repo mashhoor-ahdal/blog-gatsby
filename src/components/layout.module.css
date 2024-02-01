@@ -15,12 +15,12 @@
   --primary-300:#acc2ef;
   --accent-100:#3D5A80;
   --accent-200:#cee8ff;
-  --text-100:#FFFFFF;
-  --text-200:#e0e0e0;
-  --bg-100:#0F1C2E;
-  --bg-200:#1f2b3e;
+  --text-100:#000000;
+  --text-200:#1b1b1b;
+  --bg-100:#FFC017;
+  --bg-200:#223047;
   --bg-300:#374357;
-  --link-color:#73a9f1;
+  --link-color:#000000;
   --logo-font:'Baumans', system-ui;
     
 
@@ -36,7 +36,7 @@ a{
 
 .container {
   margin: auto;
-  max-width: 900px;
+  max-width: 600px;
   
   box-sizing: border-box;
 
@@ -63,6 +63,10 @@ a{
   border:none;
   transition: border ease-in;
 }
+.logo:hover{
+  animation : rubberband 800ms alternate ease-out;
+
+}
 
   
 
@@ -76,9 +80,10 @@ a{
 }
 
 .logo a:hover{
-  color: var(--primary-300);
-  
+  color:#b7a11f;
+ 
 }
+
 main{
   margin-top: 3rem;
 }
@@ -109,6 +114,7 @@ main p{
   padding: 10px;
   justify-content: flex-end;
   
+
   
 }
 
@@ -127,9 +133,7 @@ main p{
 
 }
 
-
-
 .nav-link-text:hover{
   border-bottom: 2px solid var(--link-color);
-  color:var(--accent-200)
+  color:#b7a11f;
 }
