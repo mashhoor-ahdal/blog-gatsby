@@ -2,12 +2,15 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../../components/layout'
 import Seo from '../../components/Seo'
+
 const BlogPost = ({ data, children }) => {
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
+      <div className='post'>
       <h2>{data.mdx.frontmatter.title}</h2>
       <p>{data.mdx.frontmatter.date}</p>
       {children}
+      </div>
     </Layout>
   )
 }

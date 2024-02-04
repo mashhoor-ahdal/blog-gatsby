@@ -2,14 +2,17 @@ import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
 import Seo from '../../components/Seo'
-import {blogs_container} from './index.module.css'
+import {blogs_container, blogs_wrapper} from './index.module.css'
 const BlogPage = ({ data }) => {
   
   return (
     <Layout pageTitle="My Blog Posts">
+      <div className={blogs_wrapper} >
       {
         data.allMdx.nodes.map(node => (
+          
           <div key={node.id} className={blogs_container} >
+            
             <h2>
               <Link to={`/blog/${node.frontmatter.slug}`}>
                 {node.frontmatter.title}
@@ -18,8 +21,10 @@ const BlogPage = ({ data }) => {
             <p>Posted: {node.frontmatter.date}</p>
             
           </div>
+         
         ))
       }
+       </div>
     </Layout>
   )
 }
