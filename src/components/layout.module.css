@@ -17,9 +17,8 @@
   --accent-200:#cee8ff;
   --text-100:#000000;
   --text-200:#1b1b1b;
-  --bg-100:#FFC017;
-  --bg-200:#223047;
-  --bg-300:#374357;
+  --bg-100:#35323231;
+
   --link-color:#000000;
   --logo-font:'Baumans', system-ui;
     
@@ -76,12 +75,6 @@ a{
   font-size: 2rem;
   font-family: var(--logo-font); 
   padding-left:50% ;
-  transition:color .4s ease-in;
-}
-
-.logo a:hover{
-  color:#b7a11f;
- 
 }
 
 main{
@@ -95,7 +88,6 @@ justify-content: center;
 font-family: 'system-ui',sans-serif;
 color: var(--text-100);
  
-
 }
 
 main p{
@@ -135,5 +127,5 @@ main p{
 
 .nav-link-text:hover{
   border-bottom: 2px solid var(--link-color);
-  color:#b7a11f;
+  
 }
