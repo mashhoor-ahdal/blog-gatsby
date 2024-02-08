@@ -7,7 +7,7 @@ const Footer = () => {
         <footer>
             <div className={footer_container}>
               <a href='https://github.com/mashhoorahdal' target='__blank'>
-                Github <span>&#11008;</span>
+                Github 
               </a>
               <p>Developed by Mashhoor Ahdal</p>
             </div>

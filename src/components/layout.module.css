@@ -58,14 +58,9 @@ a{
 .logo{
   width: fit-content;
   margin-right: auto;
-  
   border:none;
-  transition: border ease-in;
 }
-.logo:hover{
-  animation : rubberband 800ms alternate ease-out;
 
-}
 
   
 
@@ -88,6 +83,7 @@ justify-content: center;
 font-family: 'system-ui',sans-serif;
 color: var(--text-100);
  
+
 }
 
 main p{
