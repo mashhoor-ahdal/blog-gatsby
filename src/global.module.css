@@ -66,4 +66,17 @@
     .hero{
         margin-top: 40%;
     }
+    .about{
+        padding: 0;
+        padding-left: 5px;
+    }
+    .about>h2{
+        font-weight: 600;
+    }
+    .about>p{
+        line-height: 115%;
+    }
+    .about>p>span{
+        padding: 0;
+    }
 }
