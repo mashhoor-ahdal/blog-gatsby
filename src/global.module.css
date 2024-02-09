@@ -67,14 +67,14 @@
         margin-top: 40%;
     }
     .about{
-        padding: 0;
-        padding-left: 5px;
+        padding: 5px;
+        margin-bottom: 8px;
+
     }
-    .about>h2{
-        font-weight: 600;
-    }
+    
     .about>p{
-        line-height: 115%;
+        line-height: 118%;
+        line-break: strict;
     }
     .about>p>span{
         padding: 0;
