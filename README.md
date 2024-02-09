@@ -2,6 +2,13 @@
 
 This is a personal blog project.
 
+## Tech Stack
+
+- **React**: A JavaScript library for building user interfaces.
+- **Gatsby**: A static site generator that uses React for building fast websites and apps.
+- **HTML**: The standard markup language for creating web pages.
+- **CSS**: The style sheet language used for styling web pages.
+
 ## Prerequisites
 
 Before you start, ensure you have the following installed:
